@@ -1,0 +1,8 @@
+*.gz
+*.pyc
+*.sw[po]
+*~
+*.egg
+*.egg-info
+tests/.venv
+tests/results.xml
