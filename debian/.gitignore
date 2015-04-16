@@ -4,6 +4,5 @@
 files
 oz/
 python-module-stampdir/
-source/
 stamp-*
 tmp/

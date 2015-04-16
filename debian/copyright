@@ -1,41 +1,98 @@
-This work was packaged for Debian by:
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: oz
+Upstream-Contact: Chris Lalancette <clalance@redhat.com>
+Source: http://github.com/clalancette/oz/wiki
 
-    Richard Jones <rjones@redhat.com> on Thu, 22 Sep 2011 16:17:34 +0100
+Files: *
+Copyright: Copyright (C) 2010,2011  Chris Lalancette <clalance@redhat.com>
+           Copyright (C) 2012,2013  Chris Lalancette <clalancette@gmail.com>
+License: LGPL-2.1+
+ Quoting oz-install:
+ .
+ # Copyright (C) 2010,2011  Chris Lalancette <clalance@redhat.com>
+ # Copyright (C) 2012,2013  Chris Lalancette <clalancette@gmail.com>
+ .
+ # This library is free software; you can redistribute it and/or
+ # modify it under the terms of the GNU Lesser General Public
+ # License as published by the Free Software Foundation;
+ # version 2.1 of the License.
+ .
+ # This library is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ # Lesser General Public License for more details.
+ .
+ # You should have received a copy of the GNU Lesser General Public
+ # License along with this library; if not, write to the Free Software
+ # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ # On Debian systems, the complete text of the GNU Lesser General
+ # Public License version 2.1 can be found in
+ # /usr/share/common-licenses/LGPL-2.1
 
-It was downloaded from:
+Files: oz/FreeBSD.py
+Copyright: Copyright (C) 2013  harmw <harm@weites.com>
+           Copyright (C) 2013  Chris Lalancette <clalancette@gmail.com>
+License: LGPL-2.1+
+ # Copyright (C) 2013  harmw <harm@weites.com>
+ # Copyright (C) 2013  Chris Lalancette <clalancette@gmail.com>
+ .
+ # This library is free software; you can redistribute it and/or
+ # modify it under the terms of the GNU Lesser General Public
+ # License as published by the Free Software Foundation;
+ # version 2.1 of the License.
+ .
+ # This library is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ # Lesser General Public License for more details.
+ .
+ # You should have received a copy of the GNU Lesser General Public
+ # License along with this library; if not, write to the Free Software
+ # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ # On Debian systems, the complete text of the GNU Lesser General
+ # Public License version 2.1 can be found in
+ # /usr/share/common-licenses/LGPL-2.1
 
-    http://aeolusproject.org/oz.html
+Files: oz/RHEL_7.py
+Copyright: Copyright (C) 2013,2014  Chris Lalancette <clalancette@gmail.com>
+           Copyright (C) 2013  Ian McLeod <imcleod@redhat.com>
+License: LGPL-2.1+
+ # Copyright (C) 2013,2014  Chris Lalancette <clalancette@gmail.com>
+ # Copyright (C) 2013  Ian McLeod <imcleod@redhat.com>
+ .
+ # This library is free software; you can redistribute it and/or
+ # modify it under the terms of the GNU Lesser General Public
+ # License as published by the Free Software Foundation;
+ # version 2.1 of the License.
+ .
+ # This library is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ # Lesser General Public License for more details.
+ .
+ # You should have received a copy of the GNU Lesser General Public
+ # License along with this library; if not, write to the Free Software
+ # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ # On Debian systems, the complete text of the GNU Lesser General
+ # Public License version 2.1 can be found in
+ # /usr/share/common-licenses/LGPL-2.1
 
-Upstream Author:
-
-    Chris Lalancette <clalance@redhat.com>
-
-Copyright:
-
-    Copyright (C) 2010-2011 Chris Lalancette <clalance@redhat.com>
-
-License:
-
-    This library is free software; you can redistribute it and/or
-    modify it under the terms of the GNU Lesser General Public
-    License as published by the Free Software Foundation;
-    version 2.1 of the License.
-
-    This library is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-    Lesser General Public License for more details.
-
-    You should have received a copy of the GNU Lesser General Public
-    License along with this library; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301
-    USA
-
-On Debian systems, the complete text of the GNU General
-Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2.1".
-
-The Debian packaging is:
-
+Files: debian/*
+Copyright: Copyright (C) 2011 Richard Jones <rjones@redhat.com>
+           Copyright (C) 2012-2015 Chris Lalancette <clalancette@gmail.com>
+           Copyright (C) 2015 Simon Josefsson <simon@josefsson.org>
+License: LGPL-2.1+
+ This work was packaged for Debian by Richard Jones <rjones@redhat.com> on
+ Thu, 22 Sep 2011 16:17:34 +0100, and later updated by Chris in git
+ during 2012-2015 and during 2015 updated by Simon.
+ .
+ The Debian packaging is:
+ .
     Copyright (C) 2011 Richard Jones <rjones@redhat.com>
-
-and is licensed under the LGPL version 2.1 or later, see above.
+    Copyright (C) 2012-2015 Chris Lalancette <clalancette@gmail.com>
+    Copyright (C) 2015 Simon Josefsson <simon@josefsson.org>
+ .
+ and is licensed under the LGPL version 2.1 or later, see above.
