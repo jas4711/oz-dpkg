@@ -32,4 +32,5 @@ Description: install virtual machine guest OSs with minimal input the user
  .
  Currently many versions of popular operating systems are supported,
  including Debian, Ubuntu, RHEL/CentOS, Fedora, OpenSUSE, Mandrake,
- and FreeBSD.
+ and FreeBSD.  See also virt-install(1) and virt-builder(1) from the
+ virtinst and libguestfs-tools packages.
